@@ -1,4 +1,45 @@
-# Anti-Afk-BrasiliaRP
-Script em AutoHotkey v2 para automatizar ações anti-AFK no Brasília RP. Inclui movimentação aleatória, consumo automático de comida/bebida, painel de testes e agendamento de desligamento do PC.
+# Anti-AFK Brasília RP (v4.0)
 
-🤖 Anti-AFK Brasília RP (v4.0)Um script leve e completo em AutoHotkey v2 com interface gráfica para manter o teu personagem ativo no Brasília RP, evitando desconexões por inatividade.⚡ O que ele faz?Movimentação humana: Dá passos aleatórios (W, A, S, D) a cada 5 a 7 minutos.Alimentação automática: Abre o inventário, come e bebe a cada 1 hora (se ativado).Painel de testes: Testa os cliques do inventário e movimentos na hora sem ter de esperar o timer.Desligamento programado: Opção para desligar o PC sozinho após X horas (com aviso sonoro 5 min antes).Proteção de Foco: Ao testar, o script esconde-se para garantir que os cliques e teclas vão diretamente para o jogo.🚀 Como instalar e usar1. Pré-requisitosTer o AutoHotkey v2 instalado no teu computador.2. ExecutarFaz o download do ficheiro AntiAFK.ahk.Clica com o botão direito no ficheiro e seleciona "Executar como Administrador" (necessário para o Windows permitir comandos dentro do jogo).⚙️ Configurando as Posições (Comida e Bebida)Abre a interface do script e o teu inventário no jogo (F2).Na interface, clica no botão do item que queres marcar (ex: 1. Marcar a COMIDA).Leva o cursor do rato até ao item dentro do jogo e prime F8 para guardar a posição.Repete o processo para os 4 botões:1. Comida (no inventário)2. Botão Usar (da comida)3. Bebida (no inventário)4. Botão Usar (da bebida)💡 Usa a opção "Pré-visualizar posições" no painel de testes para ver o rato a passar por cima de cada ponto e confirmar se está tudo certo.⌨️ Atalhos do TecladoTeclaFunçãoF6Pausar / Continuar o scriptF7Encerrar o script completamenteF8Salvar posição do rato (durante a configuração)ESCCancelar marcação de posição📌 Dicas importantesSe não quiseres usar a rotina de alimento, basta alterar a opção para "Usar comida: NÃO". O script vai apenas andar de tempos em tempos.Podes usar o "Modo de teste (Tempo acelerado)" para rodar um ciclo completo de 90 segundos e ver se tudo está a funcionar antes de deixar o PC sozinho.
+Script em AutoHotkey v2 com interface gráfica para manter o personagem ativo no Brasília RP e evitar desconexões por inatividade.
+
+---
+
+## ⚡ Funcionalidades
+
+* **Movimentação humana:** Dá passos aleatórios (W, A, S, D) a cada 5 a 7 minutos.
+* **Alimentação automática:** Abre o inventário, come e bebe a cada 1 hora (opcional).
+* **Painel de testes:** Testa os cliques do inventário e movimentos na hora.
+* **Desligamento programado:** Desliga o PC automaticamente após X horas (com aviso sonoro 5 min antes).
+* **Proteção de foco:** Minimiza a interface ao executar testes para enviar as teclas direto para o jogo.
+
+---
+
+## 🚀 Como usar
+
+1. Baixe e instale o **[AutoHotkey v2](https://www.autohotkey.com/)**.
+2. Baixe o arquivo `AntiAFK.ahk`.
+3. Clique com o botão direito no arquivo e escolha **"Executar como Administrador"**.
+
+---
+
+## ⚙️ Configurando Comida e Bebida
+
+1. Abra a interface do script e o inventário no jogo (**F2**).
+2. Na interface, clique no botão da posição que deseja salvar.
+3. Leve o cursor do mouse até o item dentro do jogo e aperte **F8**.
+4. Repita para os 4 pontos:
+   - Comida no inventário
+   - Botão USAR da comida
+   - Bebida no inventário
+   - Botão USAR da bebida
+
+---
+
+## ⌨️ Atalhos
+
+| Tecla | Função |
+| :--- | :--- |
+| **F6** | Pausar / Continuar o script |
+| **F7** | Encerrar o script |
+| **F8** | Salvar posição do mouse |
+| **ESC** | Cancelar marcação de posição |
