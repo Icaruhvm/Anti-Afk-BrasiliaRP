@@ -16,7 +16,7 @@ Script em AutoHotkey v2 com interface gráfica para manter o personagem ativo no
 
 ## 🚀 Como usar
 
-1. Baixe e instale o **[AutoHotkey v2](https://www.autohotkey.com/)**.
+1. Baixe e instale o **AutoHotkey v2**.
 2. Baixe o arquivo `AntiAFK.ahk`.
 3. Clique com o botão direito no arquivo e escolha **"Executar como Administrador"**.
 
